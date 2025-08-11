@@ -248,10 +248,10 @@ footer {
 .footer-panel2 {
     background-color: #222f3d;
     color: white;
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .footer-panel2 ul {
@@ -264,9 +264,58 @@ footer {
 
 }
 
+ul {
+    margin-top: 50px;
+    display: inline-block;
+}
+
 .footer-panel2 a {
     text-decoration: none;
-    color: #cccccc;
+    color: #dddddd;
     font-size: 0.85rem;
+    margin-top: 10px;
+    display: inline-block;
 
+}
+
+.footer-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 1px solid #3a4553;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    background-image: url('amazon-logo.png');
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+}
+
+.footer-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 20px;
+}
+
+.pages a {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.pages a:hover {
+    text-decoration: underline;
+}
+
+.copyright{
+    margin-top: 10px;
 }
